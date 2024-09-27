@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form class="form" onsubmit="return false;">
+        <p>Выберите товары:</p>
+        <div>
+            <input type="checkbox" id="ch1" name ="goods" value=150>
+            <label for="ch1">Американо - 150p</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch2" name="goods" value=200>
+            <label for="ch2">Капучино - 200p</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ch3" name="goods" value=210>
+            <label for="ch2">Латте - 210p</label>
+        </div>
+        <div class="itog">
+            <button class="button">Выбрать</button>
+            <p>Общая сумма: <span class="summa"></span></p>
+        </div>
+    </form>
+    
+    <script src="js/work.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.form{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center; 
+   padding: 15px;
+}
+
+.itog{
+    display:flex;
+    flex-direction: column;
+}
+
+.button{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.button:hover{
+    background-color: #3da95d;
+    color: #FFFFFF;
+}
+input{
+    margin: 5px;
+}
