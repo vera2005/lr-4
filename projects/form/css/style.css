@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.button{
+    width: 100px;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: #4cbe67;
+}
+div{
+    width: 15%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.surname{
+    margin-bottom: 20px;
+}
+.ans {
+    display: flex;
+    padding: 10px;
+    flex-direction: column; /* Вертикальное расположение */
+    align-items: flex-start; /* Центрируем элементы по горизонтали */
+}
+
+.answer{
+    padding-top: 20px;
+}

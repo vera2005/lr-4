@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="form" onsubmit="return false;">
+        <h1 class="title">Coffee Store</h1>
+        <div class="client_name">
+            <label for="name">Заказ для:</label>
+            <input id="name" type="text" name="name" placeholder="Введите имя">
+            <input type="text" name="surname" placeholder="Введите фамилию">
+        </div>
+        <h2>Meню</h2>
+        <div class="menu">
+            <div class="menu_drinks">
+                <h3>Кофейная карта</h3>
+                <div class="drink_order">
+                    <div class="coffe">
+                        <div>
+                            <input type="checkbox" id="ch1" name="drink" value=100>
+                            <label for="ch1"> Эспрессо- 100</label>
+                            
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch2" name="drink" value=150>
+                            <label for="ch2">Американо - 150</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch3" name="drink" value=200>
+                            <label for="ch3">Капучино - 200</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch4" name="drink" value=210>
+                            <label for="ch4">Латте - 210</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch5" name="drink" value=250>
+                            <label for="ch5">Пряный раф от депрессии - 250</label>
+                        </div>
+                    </div>
+
+                    <div class="inputs_drinks">
+                        <input type="number" id="k1" name="kol_drink" value=0 min="0">
+                        <input type="number" id="k2" name="kol_drink" value=0 min="0">
+                        <input type="number" id="k3" name="kol_drink" value=0 min="0">
+                        <input type="number" id="k4" name="kol_drink" value=0 min="0">
+                        <input type="number" id="k5" name="kol_drink" value=0 min="0">
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu_desserts">
+                <h3>Десертная карта</h3>
+                <div class="dessert_order">
+                    <div class="des">
+                        <div>
+                            <input type="checkbox" id="ch6" name="dessert" value=80>
+                            <label for="ch6"> Шоколадный брауни- 80</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch7" name="dessert" value=150>
+                            <label for="ch7">Морковный торт - 150</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch8" name="dessert" value=140>
+                            <label for="ch8">Чизкейк - 140</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch9" name="dessert" value=150>
+                            <label for="ch9">Медовик - 150</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ch10" name="dessert" value=130>
+                            <label for="ch10">Яблочный пирог - 130</label>
+                        </div>
+                    </div>
+                    <div class="inputs_dessert">
+                        <input type="number" id="k6" name="kol_des" value=0 min="0">
+                        <input type="number" id="k7" name="kol_des" value=0 min="0">
+                        <input type="number" id="k8" name="kol_des" value=0 min="0">
+                        <input type="number" id="k9" name="kol_des" value=0 min="0">
+                        <input type="number" id="k10" name="kol_des" value=0 min="0">
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="order">
+            <p>Общая сумма: <span class="summa"></span></p>
+            <button class="button" type="button">Оформить заказ</button>
+
+        </div>
+
+    </form>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

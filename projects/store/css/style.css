@@ -1,0 +1,109 @@
+*{
+    background-color: #d4ab79;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border-color:  #482d08;
+}
+
+.client_name{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+input[type="text"]{
+    margin: 0 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_drinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu_desserts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.drink_order{
+    display: flex;
+    justify-content: space-around;
+}
+.dessert_order{
+    display: flex;
+    justify-content: space-around;
+}
+.inputs_drinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 20px; 
+}
+.inputs_drinks input[type="number"] {
+    width: 30px; 
+    height: 10px; 
+    margin: 2px 0;
+    text-align: center; 
+}
+.inputs_dessert{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 20px; 
+
+}
+.inputs_dessert input[type="number"] {
+    width: 30px; 
+    height: 10px; 
+    margin: 2px 0; 
+    text-align: center; 
+}
+
+.coffe{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 20px; 
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 20px; 
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+.button{
+    width: 100px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.button:hover{
+    background-color: #482d08;
+    color: #FFFFFF;
+}
+
